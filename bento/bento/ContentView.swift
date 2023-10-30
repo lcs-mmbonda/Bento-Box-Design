@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Bento Box Design
+//  bento
 //
-//  Created by Myers Elliott Mbonda on 2023-10-27.
+//  Created by Myers Elliott Mbonda on 2023-10-29.
 //
 
 import SwiftUI

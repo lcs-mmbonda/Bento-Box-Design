@@ -98,7 +98,6 @@
 			children = (
 				58BB0D5C2AF6842F000B2FBC /* StopwatchAppApp.swift */,
 				58BB0D5E2AF6842F000B2FBC /* ContentView.swift */,
-				58BB0D862AF68938000B2FBC /* CircleButton.swift */,
 				58BB0D602AF68435000B2FBC /* Assets.xcassets */,
 				58BB0D622AF68435000B2FBC /* Preview Content */,
 			);
@@ -108,6 +107,7 @@
 		58BB0D622AF68435000B2FBC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				58BB0D862AF68938000B2FBC /* CircleButton.swift */,
 				58BB0D632AF68435000B2FBC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";

@@ -15,6 +15,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack {
+                Spacer()
                 Text("00:09.96")
                     .font(.system(size: 90, weight: .thin))
                     .foregroundColor(.white)
@@ -28,6 +29,53 @@ struct ContentView: View {
                     
                 }
                 
+                List{
+                    
+                    Group{
+                        HStack {
+                            Text("Lap 5")
+                            Spacer()
+                            Text("00.00.98")
+                            
+                        }
+                        
+                       
+                        HStack {
+                            Text("Lap 4")
+                                .foregroundColor(.green)
+                                
+                            Spacer()
+                            Text("00.00.08")
+                                .foregroundColor(.green)
+                                
+                        }
+                        HStack {
+                            Text("Lap 3")
+                                
+                            Spacer()
+                            Text("00.01.36")
+                                
+                            
+                        }
+                        HStack {
+                            Text("Lap 2")
+                                .foregroundColor(.red)
+                            Spacer()
+                            Text("00.04.76")
+                                .foregroundColor(.red)
+                            
+                        }
+                        HStack {
+                            Text("Lap 1")
+                            Spacer()
+                            Text("00.01.16")
+                        }
+                    }
+                    .font(.system(size:20))
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                }
+                .frame(height:270)
+                .listStyle(.plain)
                 
                 
             }
@@ -70,7 +118,7 @@ struct ContentView: View {
             
       }
       .accentColor(.orange)
-      
+      .preferredColorScheme(.dark)
 }
 
 
